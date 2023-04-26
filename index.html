@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: 2s;
+            color: white
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap');
+        .BOX{
+            width: 500px;
+            height: 300px;
+            background: linear-gradient(to top right,#d77c7c,#9b44e7);
+            border-radius: 25px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 2s;
+            font-family: 'Arimo', sans-serif;
+        }
+        .BOX:hover img{
+            transform: translateX(148px);
+            transition: 2s;
+        }
+        .BOX:hover div{
+            transform: translateX(-118px);
+            transition: 2s;
+            opacity: 100%;
+        }
+        .BOX img{
+            height: 400px;
+            width: auto;
+            position: absolute;
+            top:-100px;
+        }
+        .BOX div button{
+            height: 50px;
+            background-color: transparent;
+            border-radius: 25px;
+        }
+        .BOX div button:hover{
+            background-color: #ffffff;
+        }
+        .BOX div{
+            transition: 2s;
+            position: absolute;
+            width: 250px;
+            opacity: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="BOX">
+
+
+    <div>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius impedit at minima velit, beatae blanditiis vero quod enim mollitia illo molestias repudiandae deleniti, in consequatur sequi itaque. Dolorum, consequuntur? Nam.</p>
+    <button>Read more</button>
+    </div>
+
+
+    <img src="1.png">
+
+    </div>
+</body>
+</html>
